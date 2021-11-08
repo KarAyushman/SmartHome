@@ -1,0 +1,2 @@
+# SmartHome
+This Project is a Cumulation of a NodeMCU board incorporated into a circuit to control and manage the Sprinkler Sytems at my residence involving Temperature and Humidity Sensors as extra features and an Android App encoded in Java to control the same. ThingSpeak is being used as the BackEnd API to communicate with the App and the Development Board both ways. Elaborate Documentation will be added later.
