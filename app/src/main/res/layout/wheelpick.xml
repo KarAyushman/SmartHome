@@ -1,0 +1,44 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center_horizontal"
+    android:background="@color/colorSecondary"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimary"
+        android:fontFamily="@font/modernfont"
+        android:text="Please select Duration (Minutes)"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24dp"/>
+
+    <NumberPicker
+        android:id="@+id/number"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignTop="@id/text"
+        android:theme="@style/numPick"/>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Set"
+        android:textAllCaps="false"
+        android:fontFamily="@font/modernfont"
+        android:textSize="30sp" />
+
+
+</LinearLayout>

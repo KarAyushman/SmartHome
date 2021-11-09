@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Ethan</string>
+    <string name="logoContentDescription">Logo</string>
+    <string name="temperature">Temperature</string>
+    <string name="tempIconDes">TemperatureIcon</string>
+    <string name="defVal">-NA-</string>
+    <string name="humIconDes">HumidityIcon</string>
+    <string name="humidity">Humidity</string>
+    <string name="sprinklers">Sprinklers</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="update">Update</string>
+</resources>
